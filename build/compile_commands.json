@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ubuntu/muduo_hand/build/src",
+  "command": "/usr/bin/g++   -I/home/ubuntu/muduo_hand/src/include -I/home/ubuntu/muduo_hand/example  -g   -o CMakeFiles/muduo_hand.dir/Muduo_Log.cpp.o -c /home/ubuntu/muduo_hand/src/Muduo_Log.cpp",
+  "file": "/home/ubuntu/muduo_hand/src/Muduo_Log.cpp"
+},
+{
+  "directory": "/home/ubuntu/muduo_hand/build/example",
+  "command": "/usr/bin/g++   -I/home/ubuntu/muduo_hand/src/include -I/home/ubuntu/muduo_hand/example  -g   -o CMakeFiles/main.dir/main.cpp.o -c /home/ubuntu/muduo_hand/example/main.cpp",
+  "file": "/home/ubuntu/muduo_hand/example/main.cpp"
+}
+]

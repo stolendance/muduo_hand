@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  -L/home/ubuntu/muduo_hand/lib -Wl,-rpath,/home/ubuntu/muduo_hand/lib ../../lib/libmuduo_hand.a -lpthread 

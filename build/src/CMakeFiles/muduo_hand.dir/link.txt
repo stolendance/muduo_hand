@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libmuduo_hand.a  CMakeFiles/muduo_hand.dir/Muduo_Log.cpp.o
+/usr/bin/ranlib ../../lib/libmuduo_hand.a

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/Lockqueue.h
+iostream
+-
+queue
+-
+mutex
+-
+condition_variable
+-
+
+../src/include/Muduo_Log.h
+string
+-
+Lockqueue.h
+../src/include/Lockqueue.h
+
+/home/ubuntu/muduo_hand/example/main.cpp
+iostream
+-
+Muduo_Log.h
+/home/ubuntu/muduo_hand/example/Muduo_Log.h
+unistd.h
+-
+
